@@ -8,7 +8,7 @@ env:
   RESOURCE-GROUP: rg-eshoponweb-steven
   LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: 939dffea-5ee0-4d10-b8e6-dd56799097fc
+  SUBSCRIPTION-ID: fbf64cc5-6f5f-4616-b681-91ad7afbb674
   WEBAPP-NAME: eshoponweb-webapp-steven
 
 
@@ -48,6 +48,7 @@ jobs:
       with:
         name: bicep-template
         path: ${{ env.TEMPLATE-FILE }}
+      
         
   # Use Bicep to deploy infrastructure + Publish webapp 
   deploy:
