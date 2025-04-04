@@ -10,7 +10,7 @@ on:
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-eshoponweb-steven
-  LOCATION: eastus
+  LOCATION: east us
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: fbf64cc5-6f5f-4616-b681-91ad7afbb674
   WEBAPP-NAME: eshoponweb-webapp-steven
