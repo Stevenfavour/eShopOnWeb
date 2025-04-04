@@ -1,6 +1,11 @@
 name: eShopOnWeb Build and Test
 
-Triggers on:[push, workflow_dispatch]
+on:
+  push:
+    branches:
+      - main  # Adjust as needed
+  workflow_dispatch:
+
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
