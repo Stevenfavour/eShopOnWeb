@@ -9,11 +9,11 @@ on:
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-eshoponweb-steven
-  LOCATION: westus
+  RESOURCE-GROUP: rg-eshoponweb-gbezome
+  LOCATION: eastus2
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: 2f182009-0692-4d6c-8d00-58f5578287d4
-  WEBAPP-NAME: eshoponweb-webapp-steven
+  SUBSCRIPTION-ID: 7a73a682-bfc7-43a0-ab96-41cb983ca8b9
+  WEBAPP-NAME: eshoponweb-webapp-gbezome
 
 
 jobs:
